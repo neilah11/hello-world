@@ -5,7 +5,16 @@ Created on Sun May 12 10:18:39 2019
 @author: neilh
 """
 # Test how this looks
-def iseven(k):
+dven(7)
+
+class Coordinate(object):
+    """ A coordinate made up of an x and y value """
+    def __init__(self, x, y):
+        """ Sets the x and y values """
+        self.x = x
+        self.y = y
+    def __str__(self):
+        """ Retef iseven(k):
    return k%2==0
 
 print iseurns a string representation of self """
