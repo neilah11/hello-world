@@ -5,27 +5,10 @@ Created on Sun May 12 10:18:39 2019
 @author: neilh
 """
 # Test how this looks
-dfsdf
-sdfsdfo
-i=0
-p=0
-for i in range(0,36):
-   p+=i
-print(p)
-k=0
 def iseven(k):
    return k%2==0
 
-print iseven(7)
-
-class Coordinate(object):
-    """ A coordinate made up of an x and y value """
-    def __init__(self, x, y):
-        """ Sets the x and y values """
-        self.x = x
-        self.y = y
-    def __str__(self):
-        """ Returns a string representation of self """
+print iseurns a string representation of self """
         return "<" + str(self.x) + "," + str(self.y) + ">"
     def distance(self, other):
         """ Returns the euclidean distance between two points """
